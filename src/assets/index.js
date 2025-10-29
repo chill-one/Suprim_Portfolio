@@ -23,7 +23,6 @@ import threejs from "./tech/threejs.svg";
 
 import gmu from "./company/gmu.png";
 import library from "./company/library.png";
-import pixel from "./company/pixel.png";
 import vw from "./company/pngwing.com.png";
 import vtHack from "./company/vthack.png"
 import NavalResearchLaboratory from "./company/Naval_Research_Laboratory_Logo.png";

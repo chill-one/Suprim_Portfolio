@@ -16,7 +16,7 @@ import {
     c,
     springboot,
     gmu,
-    pixel,
+    NavalResearchLaboratory,
     vw,
     library,
     ScientificTree,
@@ -127,19 +127,6 @@ import {
         "Carried out routine IT maintenance checks weekly with efficiency and system integrity."
       ],
     },
-
-    {
-      title: "Service Assistant",
-      company_name: "Lindsay Volkswagen",
-      icon: vw,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Invoiced and cataloged all the information in a comprehensive database that allowed service advisors to access and review the history of the vehicles efficiently.",
-        "Consulted customers to understand vehicle problems and scheduled the appointment for services internally using the CDK and Xtime platforms to offer better customer service and operational efficiency."
-      ],
-    },
-
     {
       title: "VT Hackathon",
       company_name: "Virgina Tech Uniersity",
@@ -154,6 +141,51 @@ import {
       ],
     },
     {
+      title: "Service Assistant",
+      company_name: "Lindsay Volkswagen",
+      icon: vw,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - May 2025",
+      points: [
+        "Invoiced and cataloged all the information in a comprehensive database that allowed service advisors to access and review the history of the vehicles efficiently.",
+        "Consulted customers to understand vehicle problems and scheduled the appointment for services internally using the CDK and Xtime platforms to offer better customer service and operational efficiency."
+      ],
+    },
+    {
+      title: "U.S. Naval Research Laboratory SWE Intern",
+      company_name: "U.S. Naval Research Laboratory (NRL)",
+      icon: NavalResearchLaboratory,
+      iconBg: "#E6DEDD",
+      date: "May 2025 - Aug 2025",
+      points: [
+        "Built an Omniverse USD Reference Manager extension to track and sync USD file changes (renames, soft-deletes) to Nucleus with checkpoint restore.",
+        "Implemented dependency graph caching for USD references, speeding up lookups and reducing redundant traversals.",
+        "Added robust change tracking (watchers, diffing) to prevent broken references and automate recovery flows.",
+        "Containerized the dev/runtime with Docker multi-stage builds; standardized local and CI environments.",
+        "Set up GitHub Actions CI/CD to build, test, and publish the extension on push/PR with artifact versioning.",
+        "Wrote utilities to snapshot/restore paths and manage rename checkpoints across modified USD hierarchies.",
+        "Instrumented structured logging and error handling to surface sync failures and edge cases clearly.",
+        "Produced engineering diagrams and a 7–10 page technical report summarizing design decisions and results.",
+        "Created synthetic datasets for robotic-arm scenarios and adapted pre-trained models to new tasks (transfer learning).",
+        "Tech: Python, NVIDIA Omniverse Kit, USD/Sdf, Docker, GitHub Actions, Git."
+      ],
+    },
+    {
+      title: "Computer Systems and Programming Undergraduate Teaching Assistant",
+      company_name: "George Mason University",
+      icon: gmu,
+      iconBg: "#E6DEDD",
+      date: "Aug 2025 - Present",
+      points: [
+        "Spatial indexing system utilizing a quad tree data structure and optimized through a circular queue for querying efficiency was developed.",
+        "Designed an application for book inventory management, patron records, and lending operations by utilizing object-oriented programming.",
+        "An engineered dynamic array-based queue management system was used to simulate and optimize restaurant seating efficiency.",
+        "Several caching algorithms are implemented with linked lists to demonstrate performance and efficiency differences.",
+        "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
+      ],
+    },
+
+    {
       title: "Computer Science Student",
       company_name: "George Mason University",
       icon: gmu,
@@ -167,21 +199,6 @@ import {
         "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
       ],
     },
-    {
-      title: "Computer Science Student",
-      company_name: "George Mason University",
-      icon: gmu,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Spatial indexing system utilizing a quad tree data structure and optimized through a circular queue for querying efficiency was developed.",
-        "Designed an application for book inventory management, patron records, and lending operations by utilizing object-oriented programming.",
-        "An engineered dynamic array-based queue management system was used to simulate and optimize restaurant seating efficiency.",
-        "Several caching algorithms are implemented with linked lists to demonstrate performance and efficiency differences.",
-        "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
-      ],
-
-    }
   ];
   
   const testimonials = [
