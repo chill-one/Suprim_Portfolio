@@ -7,6 +7,8 @@ import {
     typescript,
     html,
     css,
+    TrendlyNewsApp,
+    WeatherDressApp,
     reactjs,
     python,
     tailwind,
@@ -295,6 +297,26 @@ import {
       image: ScientificTree,
       source_code_link: "https://github.com/",
       schoolProject: true,
+    },
+    {
+      name: "Weather-Dress (AI Outfit Recommender)",
+      description:
+        "Full-stack app that recommends daily outfits using current weather and personal preferences. Next.js + Tailwind frontend calls a FastAPI backend that serves an ONNX comfort model. Weather data is fetched via OpenWeatherMap/Open-Meteo with Redis (Upstash) caching; Supabase handles Auth/Postgres for user profiles, feedback, and history. Focused on clean API design, cache keys/TTLs, model feature engineering, and end-to-end observability.",
+      tags: [
+        { name: "next.js", color: "blue-text-gradient" },
+        { name: "tailwind", color: "green-text-gradient" },
+        { name: "fastapi", color: "pink-text-gradient" },
+        { name: "onnx runtime", color: "blue-text-gradient" },
+        { name: "redis (upstash)", color: "green-text-gradient" },
+        { name: "supabase (auth + postgres)", color: "pink-text-gradient" },
+        { name: "openweathermap / open-meteo api", color: "blue-text-gradient" },
+        { name: "caching & rate limiting", color: "green-text-gradient" },
+        { name: "computer vision (clothes tags)", color: "pink-text-gradient" },
+        { name: "typescript + python", color: "blue-text-gradient" }
+      ],
+      image: WeatherDressApp,
+      source_code_link: "https://github.com/chill-one/Weather-Dress",
+      schoolProject: false,
     },
     {
       name: "Academic Advising System",

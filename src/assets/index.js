@@ -33,6 +33,8 @@ import NavalResearchLaboratory from "./company/Naval_Research_Laboratory_Logo.pn
 import homeScout from "./homeScoutAi.jpg";
 import ScientificTree from "./ScientificTree.webp";
 import advising from "./advising.webp";
+import TrendlyNewsApp from "./Trendly_News_WebApp.png";
+import WeatherDressApp from "./Weather_Dress_App.png";
 
 export {
   logo,
@@ -67,4 +69,6 @@ export {
   advising,
   USD,
   docker,
+  TrendlyNewsApp,
+  WeatherDressApp,
 };
