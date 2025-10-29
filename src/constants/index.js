@@ -158,7 +158,7 @@ import {
       company_name: "George Mason University",
       icon: gmu,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Aug 2023 - Present",
       points: [
         "Spatial indexing system utilizing a quad tree data structure and optimized through a circular queue for querying efficiency was developed.",
         "Designed an application for book inventory management, patron records, and lending operations by utilizing object-oriented programming.",
@@ -167,6 +167,21 @@ import {
         "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
       ],
     },
+    {
+      title: "Computer Science Student",
+      company_name: "George Mason University",
+      icon: gmu,
+      iconBg: "#E6DEDD",
+      date: "Jan 2023 - Present",
+      points: [
+        "Spatial indexing system utilizing a quad tree data structure and optimized through a circular queue for querying efficiency was developed.",
+        "Designed an application for book inventory management, patron records, and lending operations by utilizing object-oriented programming.",
+        "An engineered dynamic array-based queue management system was used to simulate and optimize restaurant seating efficiency.",
+        "Several caching algorithms are implemented with linked lists to demonstrate performance and efficiency differences.",
+        "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
+      ],
+
+    }
   ];
   
   const testimonials = [

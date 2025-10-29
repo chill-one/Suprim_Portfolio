@@ -26,6 +26,7 @@ import library from "./company/library.png";
 import pixel from "./company/pixel.png";
 import vw from "./company/pngwing.com.png";
 import vtHack from "./company/vthack.png"
+import NavalResearchLaboratory from "./company/Naval_Research_Laboratory_Logo.png";
 
 import homeScout from "./homeScoutAi.jpg";
 import ScientificTree from "./ScientificTree.webp";
@@ -41,6 +42,7 @@ export {
   menu,
   close,
   vtHack,
+  NavalResearchLaboratory,
   css,
   springboot,
   c,
