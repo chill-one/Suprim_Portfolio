@@ -57,7 +57,6 @@ export {
   threejs,
   gmu,
   library,
-  pixel,
   vw,
   homeScout,
   ScientificTree,

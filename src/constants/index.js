@@ -194,13 +194,20 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2023 - Present",
       points: [
-        "Spatial indexing system utilizing a quad tree data structure and optimized through a circular queue for querying efficiency was developed.",
-        "Designed an application for book inventory management, patron records, and lending operations by utilizing object-oriented programming.",
-        "An engineered dynamic array-based queue management system was used to simulate and optimize restaurant seating efficiency.",
-        "Several caching algorithms are implemented with linked lists to demonstrate performance and efficiency differences.",
-        "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
+        "Essentials of Computer Science — Built fundamentals in algorithmic thinking and program structure; practiced problem decomposition, basic data structures, and asymptotic reasoning.",
+        "Object-Oriented Programming — Applied encapsulation/inheritance/polymorphism, interfaces/abstract classes, and unit testing to design maintainable software.",
+        "Intro to Low-level Programming — Wrote systems-level C with pointers and manual memory management; used bitwise ops, stack/heap models, Makefiles, and debugger-driven workflows.",
+        "Data Structures — Implemented/analyzed lists, stacks/queues, heaps, hash tables, trees/graphs and algorithms (BFS/DFS, sorting, Dijkstra) with time/space trade-offs.",
+        "Computer Systems and Programming — Practiced Unix systems programming: processes (fork/exec), IPC (pipes/signals), files, threads, and synchronization (mutexes/CVs).",
+        "Formal Methods and Models (in progress) — Reasoning with logic, automata (DFA/NFA), regular expressions, CFGs, and Turing machines; decidability and complexity.",
+        "Operating Systems (in progress) — OS internals: scheduling, virtual memory (paging/segmentation), synchronization/deadlocks, and file system design via labs.",
+        "Discrete Mathematics I — Proof techniques (direct/contradiction/induction), propositional/predicate logic, sets/relations/functions, combinatorics, intro graph theory.",
+        "Analytic Geometry/Calculus I — Limits/continuity, differentiation & optimization, integration basics, sequences/series and convergence tests.",
+        "Analytic Geometry and Calculus II — Techniques of integration, applications, series & power series, and advanced problem solving.",
+        "Analytic Geometry/Calculus III — Multivariable calculus: partial derivatives, gradients/Jacobians, multiple integrals, vector fields, and modeling.",
       ],
-    },
+    }
+    ,
   ];
   
   const testimonials = [
