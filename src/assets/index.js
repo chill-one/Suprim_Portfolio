@@ -22,6 +22,7 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import Omniverse from "./tech/Omniverse.png";
 import USD from "./tech/USD.png";
+import docker from "./tech/docker.png";
 
 import gmu from "./company/gmu.png";
 import library from "./company/library.png";
@@ -65,4 +66,5 @@ export {
   ScientificTree,
   advising,
   USD,
+  docker,
 };
