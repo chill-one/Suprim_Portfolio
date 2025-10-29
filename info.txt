@@ -1,0 +1,8 @@
+<a href="https://www.flaticon.com/free-icons/backend" title="backend icons">Backend icons created by Muhammad Ali - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/student" title="student icons">Student icons created by nangicon - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/problem-solving" title="problem solving icons">Problem solving icons created by nangicon - Flaticon</a>
+<a href="https://www.flaticon.com/free-icons/code" title="code icons">Code icons created by nangicon - Flaticon</a>
+
+
+
+TO run : npm run dev
