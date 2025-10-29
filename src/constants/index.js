@@ -177,11 +177,13 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2025 - Present",
       points: [
-        "Spatial indexing system utilizing a quad tree data structure and optimized through a circular queue for querying efficiency was developed.",
-        "Designed an application for book inventory management, patron records, and lending operations by utilizing object-oriented programming.",
-        "An engineered dynamic array-based queue management system was used to simulate and optimize restaurant seating efficiency.",
-        "Several caching algorithms are implemented with linked lists to demonstrate performance and efficiency differences.",
-        "I programmed a checkers game that showcases artificial intelligence opponents, employing advanced algorithms to ensure competitive gameplay."
+        "Lead weekly recitations on C, Unix tooling (bash, make), and systems programming fundamentals.",
+        "Coach students through pointers, memory management, and debugging with GDB/Valgrind; demystify segfaults and race conditions.",
+        "Guide labs on processes & threads (fork/exec, pipes, signals, pthreads) and synchronization (mutexes, condition variables, semaphores).",
+        "Provide 1:1 help; triage questions on Ed Discussion/Piazza and write step-by-step troubleshooting guides.",
+        "Assist with grading and feedback on programming assignments using checklists, unit tests, and reproducible run scripts.",
+        "Promote good practices—Git workflows, code reviews, test-first debugging, and performance profiling.",
+        "Collaborate with instructors/TAs to refine recitation materials and improve student learning outcomes.",
       ],
     },
 
