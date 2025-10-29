@@ -323,7 +323,7 @@ import {
         {name : "Three.js", color: "green-text-gradient" }
       ],
       image: TrendlyNewsApp,
-      source_code_link:"https://github.com/chill-one/Trendly_NewsApp"
+      source_code_link:"https://github.com/chill-one/Trendly_NewsApp",
       schoolProject: false,
     },
     {
