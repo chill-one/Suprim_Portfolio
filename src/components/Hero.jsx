@@ -12,21 +12,21 @@ const Hero = () => {
       <div className={`${styles.paddingX} absolute inset-0 top-[120px] max-w-7xl
       mx-auto flex flex-row items-start gap-5`}> 
         <div className='flex flex-col justify-center items-center mt-5'>
-          <div className='w-5 h-5 rounded-full bg-[#915eff]'/>
+          <div className='w-5 h-5 rounded-full bg-[#780DA7]'/>
           <div className='w-1 sm:h-80 h-40
           violet-gradient'></div>
         </div>
 
         <div>
           <h1 className={`${styles.heroHeadText}`}>
-            <span className='text-dark-pink'>Hi, I'm</span> <span 
+            <span className='text-[#FFFEEC]'>Hi, I'm</span> <span 
           className="text-[#915eff]">Suprim</span></h1>
 
           <br/><p className="font-pacifico text-white-100">
           " I am a college student majoring in Computer Science, with deep interested in<br/> <span className='text-bold text-[#915eff]'>full stack development</span> and 
-          <span className='text-bold text-[#915eff]'> software engineering</span>,
-           <br className='sm:block hidden'/> with a strong inclination towards <span className='text-bold text-dark-pink'>problem-solving</span> and 
-           <span className='text-bold text-dark-pink'> artificial intelligence</span>. "
+          <span className='text-bold text-[#A88AED]'> software engineering</span>,
+           <br className='sm:block hidden'/> with a strong inclination towards <span className='text-bold text-[#CBD83B]'>problem-solving</span> and 
+           <span className='text-bold text-[#CBD83B]'> artificial intelligence</span>. "
           </p>
         </div>
       </div>

@@ -28,7 +28,7 @@ const Navbar = () => {
           h-11 object-contain"/>
           <p className="text-white text-[18px] font-bold cursor-pointer flex font-pacifico">Suprim Bhandari 
             &nbsp;
-            <span className='sm:block hidden text-dark-pink'>&nbsp;Portfolio
+            <span className='sm:block hidden text-[#FFD7B1]'>&nbsp;Portfolio
             </span>
           </p>
         </Link>
@@ -38,9 +38,9 @@ const Navbar = () => {
             key={Link.id}
             className={`${
               active === Link.title
-                ? "text-dark-pink"
+                ? "text-[#780DA7]"
                 : "text-secondary"
-            } hover:text-dark-pink text-[18px] 
+            } hover:text-[#780DA7] text-[18px] 
             font-medium cursor-pointer`}
              onClick={() => setActive(Link.title)}
             >
