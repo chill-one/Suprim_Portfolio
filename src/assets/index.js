@@ -20,6 +20,8 @@ import python from "./tech/python.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Omniverse from "./tech/Omniverse.png";
+import USD from "./tech/USD.png";
 
 import gmu from "./company/gmu.png";
 import library from "./company/library.png";
@@ -58,7 +60,9 @@ export {
   gmu,
   library,
   vw,
+  Omniverse,
   homeScout,
   ScientificTree,
   advising,
+  USD,
 };
