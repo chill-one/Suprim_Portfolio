@@ -10,54 +10,55 @@ import { fadeIn, textVariant } from '../utils/motion';
 
 const ProjectCard = ({ index, name, description, tags, image, source_code_link, schoolProject }) => {
   return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
+    <motion.div
+      variants={fadeIn("up", "spring", index * 0.5, 0.75)}
+      className="h-full"  // make the wrapper stretch
+    >
       <Tilt
-        option={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
-        className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'
+        options={{ max: 45, scale: 1, speed: 450 }}   // <-- options (plural)
+        className="bg-tertiary p-5 rounded-2xl w-full h-full"
       >
-        <div className='relative w-full h-[230px]'>
-          <img
-            src={image}
-            alt={name}
-            className='w-full h-full object-cover rounded-2xl'
-          />
-
-          <div className='absolute inset-0 flex justify-end m-3 card-img_hover'>
-            {schoolProject ? (
-              <div 
-                className='bg-red-600 w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-                title="Can only show this project in person!" 
-              >
-                <span className='text-white text-xs leading-none'>School Project</span>
-              </div>
-            ) : (
-              <div
-                onClick={() => window.open(source_code_link, "_blank")}
-                className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'
-              >
-                <img
-                  src={github}
-                  alt="github"
-                  className='w-1/2 h-1/2 object-contain'
-                />
-              </div>
-            )}
+        <div className="flex flex-col h-full">
+          {/* Image with consistent aspect & rounded corners */}
+          <div className="relative w-full aspect-[16/10] overflow-hidden rounded-2xl">
+            <img src={image} alt={name} className="w-full h-full object-cover" />
+            <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+              {schoolProject ? (
+                <div className="bg-red-600 px-2 h-10 rounded-full flex items-center cursor-default" title="Can only show this project in person!">
+                  <span className="text-white text-xs leading-none px-1">School Project</span>
+                </div>
+              ) : (
+                <button
+                  onClick={() => window.open(source_code_link, "_blank")}
+                  className="black-gradient w-10 h-10 rounded-full flex justify-center items-center"
+                  aria-label="Open GitHub source"
+                >
+                  <img src={github} alt="github" className="w-1/2 h-1/2 object-contain" />
+                </button>
+              )}
+            </div>
           </div>
-        </div>
-        <div className='mt-5'>
-          <h3 className='text-white font-black text-[24px]'>{name}</h3>
-          <p className='mt-2 text-secondary text-[14px]'>{description}</p>
-        </div>
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
-            <p key={tag.name} className={`text-[14px] ${tag.color}`}>
-              #{tag.name}
+
+          {/* Title + description fill remaining space */}
+          <div className="mt-5 flex-1">
+            <h3 className="text-white font-black text-[24px]">{name}</h3>
+            {/* If you have Tailwind line-clamp plugin: use line-clamp-3.
+                If not, use the fallback below (comment/uncomment as needed). */}
+            <p className="mt-2 text-secondary text-[14px] leading-relaxed line-clamp-3">
+              {description}
             </p>
-          ))}
+            {/* Fallback (no plugin):
+            <p className="mt-2 text-secondary text-[14px] leading-relaxed max-h-[66px] overflow-hidden">
+              {description}
+            </p> */}
+          </div>
+
+          {/* Tags stay aligned at bottom */}
+          <div className="mt-4 flex flex-wrap gap-2">
+            {tags.map((tag) => (
+              <p key={tag.name} className={`text-[14px] ${tag.color}`}>#{tag.name}</p>
+            ))}
+          </div>
         </div>
       </Tilt>
     </motion.div>
@@ -87,13 +88,11 @@ const Works = () => {
       </motion.p>
     </div>
 
-    <div className='mt-20 flex flex-wrap gap-7'>
+    <div className="mt-20 grid gap-7 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
     {projects.map((project, index) => (
-      <ProjectCard 
-        key={`project-${index}`}
-        index={index}
-        {...project}
-        />
+        <div className='h-full'>
+          <ProjectCard key={`project-${index}`} index={index} {...project} />
+        </div>
     ))}
     </div>
       

@@ -244,32 +244,27 @@ import {
   
   const projects = [
     {
-      name: "Home Scout AI",
-      description:"Developed an AI-powered real estate platform integrating MongoDB, Azure OpenAI, Midnight Blockchain,React.js, Node.js, and Express.js to provide personalized home recommendations while ensuring data privacy.",
+      name: "Academic Advising System",
+      description:
+        "The project involved creating an academic advising system using graphs and priority queues to perform topological sorts, which taught me an advanced data structure implementation and enhanced my ability to manage and prioritize tasks within a software development context.",
       tags: [
         {
-          name: "react",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "mongodb",
-          color: "green-text-gradient",
-        },
-        {
-          name:"beautiful-soup",
-          color:"blue-text-gradient",
-        },
-        {
-          name:"azurai",
-          color:"green-text-gradient",
-        },
-        {
-          name: "tailwind",
+          name: "java",
           color: "pink-text-gradient",
         },
+        {
+          name:"graph and graph traversal",
+          color:"pink-text-gradient",
+        },
+        {
+          name:"data structure",
+          color:"green-text-gradient",
+        },
+
       ],
-      image: homeScout,
-      source_code_link: "https://github.com/chill-one/RealEstateAIExtension",
+      image: advising,
+      source_code_link: "https://github.com/",
+      schoolProject: true,
     },
     {
       name: "Scientific Tree",
@@ -301,17 +296,15 @@ import {
     {
       name: "Weather-Dress (AI Outfit Recommender)",
       description:
-        "Full-stack app that recommends daily outfits using current weather and personal preferences. Next.js + Tailwind frontend calls a FastAPI backend that serves an ONNX comfort model. Weather data is fetched via OpenWeatherMap/Open-Meteo with Redis (Upstash) caching; Supabase handles Auth/Postgres for user profiles, feedback, and history. Focused on clean API design, cache keys/TTLs, model feature engineering, and end-to-end observability.",
+        "Full-stack app that recommends daily outfits using current weather and personal preferences.",
       tags: [
         { name: "next.js", color: "blue-text-gradient" },
         { name: "tailwind", color: "green-text-gradient" },
         { name: "fastapi", color: "pink-text-gradient" },
         { name: "onnx runtime", color: "blue-text-gradient" },
-        { name: "redis (upstash)", color: "green-text-gradient" },
-        { name: "supabase (auth + postgres)", color: "pink-text-gradient" },
-        { name: "openweathermap / open-meteo api", color: "blue-text-gradient" },
-        { name: "caching & rate limiting", color: "green-text-gradient" },
-        { name: "computer vision (clothes tags)", color: "pink-text-gradient" },
+        { name: "supabase", color: "pink-text-gradient" },
+        { name: "openweathermap", color: "blue-text-gradient" },
+        { name: "computer vision", color: "pink-text-gradient" },
         { name: "typescript + python", color: "blue-text-gradient" }
       ],
       image: WeatherDressApp,
@@ -319,28 +312,48 @@ import {
       schoolProject: false,
     },
     {
-      name: "Academic Advising System",
+      name: "Trendly News App",
       description:
-        "The project involved creating an academic advising system using graphs and priority queues to perform topological sorts, which taught me an advanced data structure implementation and enhanced my ability to manage and prioritize tasks within a software development context.",
+        "A sleek, modern React + Vite application that delivers curated news in a clean, interactive UI. Built with reusable components, responsive layouts using Tailwind CSS, and API-driven data fetching with loading/error states for a smooth browsing experience.",
       tags: [
-        {
-          name: "java",
-          color: "pink-text-gradient",
-        },
-        {
-          name:"graph and graph traversal",
-          color:"pink-text-gradient",
-        },
-        {
-          name:"data structure",
-          color:"green-text-gradient",
-        },
-
+        { name: "react",        color: "blue-text-gradient" },
+        { name: "vite",         color: "green-text-gradient" },
+        { name: "tailwindcss",  color: "pink-text-gradient" },
+        { name: "api integration", color: "blue-text-gradient" },
+        {name : "Three.js", color: "green-text-gradient" }
       ],
-      image: advising,
-      source_code_link: "https://github.com/",
-      schoolProject: true,
+      image: TrendlyNewsApp,
+      source_code_link:"https://github.com/chill-one/Trendly_NewsApp"
+      schoolProject: false,
     },
+    {
+    name: "Home Scout AI",
+    description:"Developed an AI-powered real estate platform integrating MongoDB, Azure OpenAI, Midnight Blockchain,React.js, Node.js, and Express.js to provide personalized home recommendations while ensuring data privacy.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "green-text-gradient",
+      },
+      {
+        name:"beautiful-soup",
+        color:"blue-text-gradient",
+      },
+      {
+        name:"azurai",
+        color:"green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: homeScout,
+    source_code_link: "https://github.com/chill-one/RealEstateAIExtension",
+  },
   ];
   
   export { services, technologies, experiences, testimonials, projects };
