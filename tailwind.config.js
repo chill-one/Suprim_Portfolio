@@ -20,7 +20,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "hero-pattern": "url('/src/assets/herobg.jpg')",
         'purple-magenta-gradient': 'linear-gradient(to right, #915eff, #C71585)',
       },
       fontFamily: {
